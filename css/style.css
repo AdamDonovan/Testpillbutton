@@ -11,45 +11,7 @@
 	background-color:#DDDDDD;
 }
 
-.btn.red{
-	background-color:#E53C38;
-}
 
-.btn.red:hover{
-	background-color:#ea6360;
-}
-
-.btn.orange{
-	background-color:#FF8A3C;
-}
-
-.btn.orange:hover{
-	background-color:#ffa163;
-}
-
-.btn.yellow{
-	background-color:#FFF852;
-}
-
-.btn.yellow:hover{
-	background-color:#fff975;
-}
-
-.btn.green{
-	background-color:#4BC94D;
-}
-
-.btn.green:hover{
-	background-color:#6fd471;
-}
-
-.btn.blue{
-	background-color:#5DADE2;
-}
-
-.btn.blue:hover{
-	background-color:#7dbde8;
-}
 
 .btn:hover{
 	background-color:#F6F6F6;
