@@ -13,13 +13,10 @@
 
 
 
-
-
-.btn.round{
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
+.btn:hover{
+	background-color:#F6F6F6;
 }
+
 
 .btn.pill{
   -webkit-border-radius: 16px;
@@ -27,13 +24,13 @@
   border-radius: 16px;
 }
 
-.btn-group > .btn.round:not(:first-child):not(:last-child), .btn-group > .btn.pill:not(:first-child):not(:last-child){
+.btn-group > .btn.pill:not(:first-child):not(:last-child){
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 
-.btn-group > .btn.round:first-child, .btn-group > .btn.pill:first-child{
+.btn-group > .btn.pill:first-child{
   -webkit-border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 0;
   -moz-border-radius-topright: 0;
@@ -42,7 +39,7 @@
   border-bottom-right-radius: 0;
 }
 
-.btn-group > .btn.round:last-child, .btn-group > .btn.pill:last-child{
+.btn-group > .btn.pill:last-child{
   -webkit-border-top-left-radius: 0;
   -webkit-border-bottom-left-radius: 0;
   -moz-border-radius-topleft: 0;
